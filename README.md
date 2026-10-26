@@ -1,42 +1,46 @@
 # Reading Archive
 
-A personal digital library for collecting, organizing, and revisiting meaningful passages from books.
+*A personal digital library for collecting, connecting, and revisiting ideas discovered through reading.*
 
-As someone who loves reading and highlighting passages worth remembering, I wanted a better way to preserve those thoughts beyond physical bookmarks. Reading Archive is my attempt to build one.
+I often highlight passages in books that make me stop and think. Some capture an idea I want to remember; others change how I see something or lead me to a new question.
 
-## Features
+I started Reading Archive to give those passages a place beyond the pages they came from, and to explore how a collection of reading notes could become something more than a digital bookshelf.
 
-- **Personal Library** — Add books and manage your collection.
-- **Passage Collection** — Save meaningful quotes and passages from each book.
-- **Personal Reflections** — Record your thoughts alongside saved passages.
-- **Book Details** — Browse passages associated with individual books.
+The long-term vision is to build a personal reading space where ideas can be explored, connections between books can emerge, and the evolution of my interests and thinking becomes visible over time.
 
-## Tech Stack
+## Current Direction
+
+Reading Archive is under active development. I'm building the foundation first, with plans to explore more thoughtful and interactive ways of engaging with saved passages.
+
+### Planned Features
+
+- **Personal Library** : Organize books and their details in one place.
+- **Passage Collection** : Preserve meaningful quotes and passages from books.
+- **Personal Reflections** : Capture thoughts, questions, and interpretations alongside passages.
+- **Book Exploration** : Revisit highlights and reflections associated with individual books.
+- **Constellation** : Explore connections between passages, discover emerging themes, and visualize how reading interests evolve.
+- **AI-Assisted Discovery** : Experiment with semantic search and AI-generated insights to uncover relationships between ideas.
+
+## Technology
 
 | Layer | Technologies |
 |---|---|
 | Frontend | React, JavaScript, CSS, Vite |
 | Backend | Python, Flask |
 | Database | SQLite |
-| API | RESTful API |
+| Communication | REST API |
 
-## Project Structure
+## What's Next
 
-The application consists of a React frontend communicating with a Flask backend through REST API endpoints. SQLite provides persistent storage for books and passages.
+I'm exploring how Reading Archive can grow beyond a place to store passages. The next step is Constellation, an interactive space for discovering connections between ideas and seeing how my interests and thinking evolve through reading.
 
-## Roadmap
-
-- [ ] Interactive visual bookshelf
-- [ ] Extract passages from images using OCR
-- [ ] Search and filter saved passages
-- [ ] Integrate AI-powered features for exploring reading notes
-- [ ] Improve responsive design for mobile devices
+Other possibilities include extracting passages from images, exploring notes through semantic search, and finding new ways to revisit ideas I've collected over time.
 
 ## Project Status
 
-**Under active development.**
+**In progress.** The application is still evolving, and the features and direction may change as I experiment with different approaches.
 
-This project is also an opportunity to strengthen my full-stack development skills and explore practical AI integration.
+This repository documents the development of Reading Archive, from its foundations to a more intelligent and personal way of exploring what we read.
 
 ---
 
